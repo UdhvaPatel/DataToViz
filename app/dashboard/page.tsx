@@ -171,7 +171,6 @@ export default function DashboardPage() {
   const diffSummary        = usePipelineStore((s) => s.diffSummary);
   const engineeredMeta     = usePipelineStore((s) => s.engineeredMeta);
   const selectedChartIds   = usePipelineStore((s) => s.selectedChartIds);
-  const dataProfile        = usePipelineStore((s) => s.dataProfile);
   const user               = usePipelineStore((s) => s.user);
   const isSaving           = usePipelineStore((s) => s.isSaving);
   const currentSessionId   = usePipelineStore((s) => s.currentSessionId);
@@ -224,7 +223,7 @@ export default function DashboardPage() {
   const toggleFeature = (col: string) => {
     setHiddenFeatures((prev) => {
       const next = new Set(prev);
-      next.has(col) ? next.delete(col) : next.add(col);
+      if (next.has(col)) next.delete(col); else next.add(col);
       return next;
     });
   };

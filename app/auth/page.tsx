@@ -64,17 +64,6 @@ export default function AuthPage() {
     }
   }
 
-  async function handleGoogle() {
-    setLoading(true);
-    const supabase = createClient();
-    const { error } = await supabase.auth.signInWithOAuth({
-      provider: "google",
-      options: {
-        redirectTo: `${window.location.origin}/auth/callback?next=${encodeURIComponent(next)}`,
-      },
-    });
-    if (error) { setError(error.message); setLoading(false); }
-  }
 
   return (
     <div

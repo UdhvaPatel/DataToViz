@@ -8,7 +8,6 @@ import {
   Trash2,
   RefreshCw,
   BarChart2,
-  TrendingUp,
   ScatterChart,
   PieChart,
   BarChart,

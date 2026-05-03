@@ -3,7 +3,6 @@ import type {
   ColumnDistribution,
   NumericDistribution,
   CategoricalDistribution,
-  DatetimeDistribution,
   ColumnRelationship,
   ColumnTrend,
   TemporalTrends,

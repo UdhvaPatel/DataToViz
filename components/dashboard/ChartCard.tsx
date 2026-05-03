@@ -143,7 +143,6 @@ export function ChartCard({
                           onChange={(e) => setNote(chartId, e.target.value)}
                           placeholder="Add a note about this chart…"
                           rows={3}
-                          // eslint-disable-next-line jsx-a11y/no-autofocus
                           autoFocus
                           className="w-full resize-none rounded-md border border-input bg-background px-2.5 py-2 text-xs outline-none placeholder:text-muted-foreground/50 focus:ring-2 focus:ring-ring"
                         />
