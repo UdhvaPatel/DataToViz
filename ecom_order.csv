@@ -1,0 +1,51 @@
+order_id,customer_id,customer_age,customer_gender,customer_city,order_date,product_category,product_name,quantity,unit_price,discount_pct,shipping_days,payment_method,device_type,is_returning_customer,order_status,rating
+O001,C101,34,Female,New York,2024-01-03,Electronics,Wireless Earbuds,1,89.99,10,3,Credit Card,Mobile,Yes,Delivered,4
+O002,C102,27,Male,Los Angeles,2024-01-05,Clothing,Running Shoes,2,55.0,0,5,PayPal,Desktop,No,Delivered,3
+O003,C103,45,Female,Chicago,2024-01-07,Home & Kitchen,Air Fryer,1,129.99,15,4,Credit Card,Desktop,Yes,Delivered,5
+O004,C104,22,Male,Houston,2024-01-08,Electronics,Phone Case,3,12.5,0,2,Debit Card,Mobile,No,Delivered,2
+O005,C105,38,Female,Phoenix,2024-01-10,Beauty,Skincare Set,1,75.0,20,6,Credit Card,Mobile,Yes,Delivered,5
+O006,C106,51,Male,New York,2024-01-12,Electronics,Bluetooth Speaker,1,149.99,10,3,PayPal,Desktop,Yes,Delivered,4
+O007,C107,29,Female,Chicago,2024-01-14,Clothing,Winter Jacket,1,199.99,25,7,Credit Card,Mobile,No,Cancelled,
+O008,C108,33,Male,Los Angeles,2024-01-15,Home & Kitchen,Coffee Maker,1,89.99,0,4,Debit Card,Desktop,Yes,Delivered,4
+O009,C109,41,Female,Houston,2024-01-17,Beauty,Perfume,2,65.0,10,5,Credit Card,Mobile,Yes,Delivered,3
+O010,C110,26,Male,Phoenix,2024-01-19,Electronics,Smart Watch,1,299.99,5,3,PayPal,Desktop,No,Delivered,4
+O011,C101,34,Female,New York,2024-01-21,Clothing,Yoga Pants,2,45.0,15,4,Credit Card,Mobile,Yes,Delivered,5
+O012,C111,55,Male,Chicago,2024-01-22,Home & Kitchen,Vacuum Cleaner,1,249.99,10,6,Credit Card,Desktop,No,Delivered,3
+O013,C112,31,Female,Los Angeles,2024-01-24,Beauty,Hair Dryer,1,55.0,0,3,Debit Card,Mobile,No,Delivered,4
+O014,C113,47,Male,New York,2024-01-25,Electronics,Laptop Stand,1,35.99,0,2,PayPal,Desktop,Yes,Delivered,4
+O015,C114,23,Female,Houston,2024-01-27,Clothing,Denim Jeans,1,79.99,20,5,Credit Card,Mobile,No,Returned,2
+O016,C115,36,Male,Phoenix,2024-01-29,Home & Kitchen,Knife Set,1,119.99,10,4,Debit Card,Desktop,Yes,Delivered,5
+O017,C116,28,Female,Chicago,2024-02-01,Beauty,Face Mask Pack,3,25.0,0,3,Credit Card,Mobile,No,Delivered,4
+O018,C117,43,Male,Los Angeles,2024-02-03,Electronics,Gaming Mouse,1,69.99,10,2,PayPal,Desktop,Yes,Delivered,5
+O019,C118,39,Female,New York,2024-02-05,Clothing,Formal Dress,1,149.99,30,6,Credit Card,Mobile,Yes,Delivered,4
+O020,C119,25,Male,Houston,2024-02-07,Home & Kitchen,Blender,1,59.99,0,4,Debit Card,Desktop,No,Delivered,3
+O021,C120,52,Female,Phoenix,2024-02-09,Beauty,Anti-aging Cream,1,95.0,15,5,Credit Card,Mobile,Yes,Delivered,5
+O022,C102,27,Male,Los Angeles,2024-02-11,Electronics,USB Hub,2,29.99,0,2,PayPal,Desktop,No,Delivered,3
+O023,C121,37,Female,Chicago,2024-02-13,Clothing,Casual Sneakers,1,89.99,10,4,Credit Card,Mobile,No,Delivered,4
+O024,C122,44,Male,New York,2024-02-15,Home & Kitchen,Air Purifier,1,189.99,20,5,Debit Card,Desktop,Yes,Delivered,4
+O025,C123,30,Female,Houston,2024-02-17,Beauty,Nail Kit,2,35.0,0,3,Credit Card,Mobile,No,Cancelled,
+O026,C124,48,Male,Phoenix,2024-02-19,Electronics,Portable Charger,2,45.0,10,2,PayPal,Desktop,Yes,Delivered,4
+O027,C125,21,Female,Chicago,2024-02-21,Clothing,Crop Top,3,25.0,0,3,Debit Card,Mobile,No,Delivered,3
+O028,C126,56,Male,Los Angeles,2024-02-23,Home & Kitchen,Rice Cooker,1,79.99,15,4,Credit Card,Desktop,Yes,Delivered,5
+O029,C127,32,Female,New York,2024-02-25,Beauty,Makeup Brush Set,1,45.0,10,3,PayPal,Mobile,No,Delivered,4
+O030,C128,40,Male,Houston,2024-02-27,Electronics,Webcam,1,99.99,0,3,Credit Card,Desktop,Yes,Delivered,4
+O031,C129,35,Female,Phoenix,2024-03-01,Clothing,Swimsuit,2,55.0,25,5,Debit Card,Mobile,No,Returned,2
+O032,C130,49,Male,Chicago,2024-03-03,Home & Kitchen,Toaster Oven,1,109.99,10,4,Credit Card,Desktop,Yes,Delivered,5
+O033,C131,26,Female,Los Angeles,2024-03-05,Beauty,Sunscreen SPF50,3,22.0,0,2,PayPal,Mobile,No,Delivered,3
+O034,C132,42,Male,New York,2024-03-07,Electronics,Keyboard,1,129.99,15,3,Credit Card,Desktop,Yes,Delivered,5
+O035,C133,38,Female,Houston,2024-03-09,Clothing,Leggings,2,39.99,0,3,Debit Card,Mobile,No,Delivered,4
+O036,C134,53,Male,Phoenix,2024-03-11,Home & Kitchen,Food Processor,1,159.99,20,5,Credit Card,Desktop,Yes,Delivered,4
+O037,C135,24,Female,Chicago,2024-03-13,Beauty,Lip Gloss Set,2,28.0,10,2,PayPal,Mobile,No,Delivered,3
+O038,C103,45,Female,Chicago,2024-03-15,Electronics,Tablet Stand,1,25.99,0,2,Credit Card,Desktop,Yes,Delivered,4
+O039,C136,31,Male,Los Angeles,2024-03-17,Clothing,Polo Shirt,3,35.0,15,4,Debit Card,Mobile,No,Delivered,3
+O040,C137,46,Female,New York,2024-03-19,Home & Kitchen,Electric Kettle,1,49.99,10,3,Credit Card,Desktop,Yes,Delivered,5
+O041,C138,29,Male,Houston,2024-03-21,Beauty,Beard Kit,1,55.0,0,3,PayPal,Mobile,No,Delivered,4
+O042,C139,57,Female,Phoenix,2024-03-23,Electronics,Smart Bulbs Pack,2,79.99,20,4,Credit Card,Desktop,Yes,Delivered,4
+O043,C140,33,Male,Chicago,2024-03-25,Clothing,Hoodie,1,65.0,10,4,Debit Card,Mobile,No,Delivered,3
+O044,C141,41,Female,Los Angeles,2024-03-27,Home & Kitchen,Dish Rack,1,35.99,0,2,Credit Card,Desktop,Yes,Delivered,5
+O045,C142,27,Male,New York,2024-03-29,Beauty,Shaving Kit,1,42.0,15,3,PayPal,Mobile,No,Cancelled,
+O046,C143,50,Female,Houston,2024-04-01,Electronics,Monitor Light,1,55.99,10,2,Credit Card,Desktop,Yes,Delivered,4
+O047,C144,36,Male,Phoenix,2024-04-03,Clothing,Shorts,2,32.0,0,3,Debit Card,Mobile,No,Delivered,3
+O048,C145,43,Female,Chicago,2024-04-05,Home & Kitchen,Pressure Cooker,1,139.99,25,5,Credit Card,Desktop,Yes,Delivered,5
+O049,C146,28,Male,Los Angeles,2024-04-07,Beauty,Body Lotion,2,38.0,10,3,PayPal,Mobile,No,Delivered,4
+O050,C147,39,Female,New York,2024-04-09,Electronics,Ring Light,1,85.99,15,4,Credit Card,Desktop,Yes,Delivered,4

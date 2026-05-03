@@ -1,0 +1,26 @@
+customer_id,age,gender,tenure_months,monthly_charges,total_charges,contract_type,payment_method,num_support_tickets,last_login_days_ago,churned
+C001,28,Male,12,65.5,786,Month-to-month,Credit card,2,5,No
+C002,45,Female,36,89.99,3239.64,One year,Bank transfer,0,1,No
+C003,32,,8,45.0,360,Month-to-month,Electronic check,5,30,Yes
+C004,52,Female,60,110.5,6630,Two year,Credit card,1,3,No
+C005,23,Male,3,55.75,167.25,Month-to-month,Electronic check,8,45,Yes
+C006,,Female,24,78.0,1872,One year,Bank transfer,0,2,No
+C007,41,Male,18,92.5,1665,Month-to-month,Credit card,3,15,Yes
+C008,29,Female,6,48.0,288,Month-to-month,Electronic check,6,60,Yes
+C009,55,Male,48,105.0,5040,Two year,Bank transfer,0,4,No
+C010,38,Female,15,72.5,1087.5,Month-to-month,Credit card,4,20,Yes
+C011,47,Male,30,88.0,2640,One year,Bank transfer,1,7,No
+C012,26,Female,4,42.5,170,Month-to-month,Electronic check,9,90,Yes
+C013,61,Male,72,120.0,8640,Two year,Credit card,0,2,No
+C014,33,,10,58.0,580,Month-to-month,Electronic check,4,25,Yes
+C015,44,Female,42,95.5,4011,One year,Bank transfer,1,6,No
+C016,27,Male,5,50.0,250,Month-to-month,Electronic check,7,55,Yes
+C017,50,Female,54,108.0,5832,Two year,Credit card,0,3,No
+C018,36,Male,20,80.0,1600,Month-to-month,Bank transfer,3,18,Yes
+C019,43,Female,33,91.0,3003,One year,Credit card,1,8,No
+C020,24,Male,2,40.0,80,Month-to-month,Electronic check,10,120,Yes
+C021,58,Female,66,115.0,7590,Two year,Bank transfer,0,1,No
+C022,31,Male,9,60.0,540,Month-to-month,Electronic check,5,35,Yes
+C023,49,Female,45,102.0,4590,Two year,Credit card,0,4,No
+C024,37,Male,16,75.0,1200,Month-to-month,Bank transfer,3,22,Yes
+C025,42,Female,38,93.0,3534,One year,Credit card,1,9,No
