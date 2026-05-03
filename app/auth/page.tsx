@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { motion } from "framer-motion";
 import { Sparkles, Mail, Lock, User, AlertCircle } from "lucide-react";
@@ -16,7 +16,7 @@ const MUTED = "#71717a";
 const ACCENT = "#7c3aed";
 const ACCENTL = "#8b5cf6";
 
-export default function AuthPage() {
+function AuthContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const next = searchParams.get("next") ?? "/upload";
@@ -214,5 +214,13 @@ export default function AuthPage() {
         </form>
       </motion.div>
     </div>
+  );
+}
+
+export default function AuthPage() {
+  return (
+    <Suspense fallback={null}>
+      <AuthContent />
+    </Suspense>
   );
 }

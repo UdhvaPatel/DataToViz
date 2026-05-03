@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useCallback, useEffect } from "react";
+import { useState, useRef, useCallback, useEffect, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
@@ -53,7 +53,7 @@ const EXAMPLE_PROMPTS = [
 // Page
 // ---------------------------------------------------------------------------
 
-export default function UploadPage() {
+function UploadContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const inputRef = useRef<HTMLInputElement>(null);
@@ -341,5 +341,13 @@ export default function UploadPage() {
       </motion.div>
     </div>
     </div>
+  );
+}
+
+export default function UploadPage() {
+  return (
+    <Suspense fallback={null}>
+      <UploadContent />
+    </Suspense>
   );
 }
