@@ -22,6 +22,7 @@ import {
 } from "lucide-react";
 import { usePipelineStore } from "@/lib/store/pipelineStore";
 import { updateLastActive } from "@/lib/supabase/auth";
+import { useTheme } from "@/lib/hooks/useTheme";
 import { FilterPanel } from "@/components/dashboard/FilterPanel";
 import { BarChartComponent } from "@/components/dashboard/BarChartComponent";
 import { LineChartComponent } from "@/components/dashboard/LineChartComponent";
@@ -69,33 +70,6 @@ function sortCharts(charts: ChartBlueprint[]): ChartBlueprint[] {
       RELEVANCE_ORDER[a.relevance] - RELEVANCE_ORDER[b.relevance] ||
       a.order - b.order
   );
-}
-
-// ---------------------------------------------------------------------------
-// Theme hook — class-based dark mode via localStorage
-// ---------------------------------------------------------------------------
-
-function useTheme() {
-  const [isDark, setIsDark] = useState(false);
-
-  useEffect(() => {
-    const stored = localStorage.getItem("dtv-theme");
-    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const dark = stored ? stored === "dark" : prefersDark;
-    setIsDark(dark);
-    document.documentElement.classList.toggle("dark", dark);
-  }, []);
-
-  const toggle = () => {
-    setIsDark((prev) => {
-      const next = !prev;
-      document.documentElement.classList.toggle("dark", next);
-      localStorage.setItem("dtv-theme", next ? "dark" : "light");
-      return next;
-    });
-  };
-
-  return { isDark, toggle };
 }
 
 // ---------------------------------------------------------------------------

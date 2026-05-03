@@ -15,6 +15,8 @@ import {
   AlertCircle,
   Home,
   History,
+  Moon,
+  Sun,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -22,6 +24,7 @@ import { runPipeline } from "@/lib/data/pipeline";
 import { Navbar } from "@/components/layout/Navbar";
 import { usePipelineStore } from "@/lib/store/pipelineStore";
 import { updateLastActive } from "@/lib/supabase/auth";
+import { useTheme } from "@/lib/hooks/useTheme";
 
 // ---------------------------------------------------------------------------
 // Helpers
@@ -58,6 +61,7 @@ function UploadContent() {
   const searchParams = useSearchParams();
   const inputRef = useRef<HTMLInputElement>(null);
   const user = usePipelineStore((s) => s.user);
+  const { isDark, toggle: toggleTheme } = useTheme();
 
   const [file, setFile] = useState<File | null>(null);
   const [prompt, setPrompt] = useState(searchParams.get("prompt") ?? "");
@@ -132,6 +136,16 @@ function UploadContent() {
           <History className="h-3.5 w-3.5" />
           My Dashboards
         </Link>
+        <div className="ml-auto">
+          <button
+            type="button"
+            onClick={toggleTheme}
+            aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
+            className="rounded-md p-1.5 text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
+          >
+            {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
+          </button>
+        </div>
       </div>
 
     <div className="flex flex-1 flex-col items-center justify-center px-4 py-16">
